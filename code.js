@@ -7,10 +7,7 @@ function fib(n) {
 
 function fib_acc(n, accOne, accTwo) {
     //console.log(accTwo);
-    if(n == 1) {
-        return accOne;
-    }
-    if(n==2) {
+    if(n <= 2) {
         return accTwo;
     }
     //console.log(accOne);
