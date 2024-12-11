@@ -12,7 +12,7 @@ the function and run automatically when you commit through a GitHub action.
 Hint: It may help to have a look at the iterative dynamic programming
 implementation. What changes between iterations of the loop?
 
-I used the test code from the other fib invariants exercise. I also looked at the lecture slides that contain tail recursion. 
+I looked at the lecture slides(dynamic programming, tail recursion, factorial examples) and my notes on tail recursion. I asked chatGPT for the test code.
 
 ## Runtime Analysis
 
