@@ -12,6 +12,8 @@ the function and run automatically when you commit through a GitHub action.
 Hint: It may help to have a look at the iterative dynamic programming
 implementation. What changes between iterations of the loop?
 
+I used the test code from the other fib invariants exercise. I also looked at the lecture slides that contain tail recursion. 
+
 ## Runtime Analysis
 
 Is the asymptotic complexity of tail-recursive Fibonacci different from the
