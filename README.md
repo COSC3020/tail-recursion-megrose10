@@ -12,9 +12,13 @@ the function and run automatically when you commit through a GitHub action.
 Hint: It may help to have a look at the iterative dynamic programming
 implementation. What changes between iterations of the loop?
 
+I looked at the lecture slides(dynamic programming, tail recursion, factorial examples) and my notes on tail recursion. I asked chatGPT for the test code. I also watched this video: https://www.bing.com/videos/riverview/relatedvideo?&q=how+to+use+github+actions+to+autimatically+run+tests+on+girhub+website&&mid=1B3D621FC15E307873CE1B3D621FC15E307873CE&&FORM=VRDGAR on how to use github Actions.
+
 ## Runtime Analysis
 
 Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not, and what is the complexity
 (worst-case $\Theta$)? Add your answer, including your reasoning, to this
 markdown file.
+
+In a non-tail-recursive implementation, like the code from the slides, you make two recursive calls in the return statement, while in the tail recursive implementation, you are essentially making one. This will cut the runtime to $\Theta$ (n) since there is only one recursive call, this can be illustrated when watching n, every recursive call, we subtract one from n until we get to our terminate line that pushs the program to return the value computed, so we over this program n times.
